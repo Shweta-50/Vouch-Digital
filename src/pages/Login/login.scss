@@ -1,0 +1,112 @@
+.login-container {
+  .login {
+    width: 75%;
+  }
+  .login-right {
+    background-color: var(--primary-color);
+    height: 100vh !important;
+    padding-top: 100px;
+
+    .login-content {
+      h1 {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: -0.005em;
+        font-size: 22px !important;
+        margin-bottom: -5px !important;
+        color: #ffffff;
+      }
+      img {
+        width: 500px;
+      }
+    }
+  }
+}
+.login-left {
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 160px;
+  .login-right-content {
+    text-align: center;
+  }
+  .login-right-content h1 {
+    font-weight: bold !important;
+  }
+  .input-group-text{
+    padding:0;
+    background-color: transparent !important;
+    padding-left:10px;
+  }
+  input{
+    border-left:0;
+  }
+  input:focus{
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+    border-left:0 !important;
+   
+  }
+  .submit-button{
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+background-color:var(--primary-color)!important;
+border-radius: 8px;
+  }
+  .input-password{
+    border-right:0;
+  }
+  .input-password:focus{
+    border-right:0!important;
+  }
+  .login-left-policy {
+    span {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.0025em;
+      color: #233244;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.01em;
+      color: #233244;
+    }
+   
+  }
+
+  .login-input p {
+    text-align: center;
+  }
+}
+
+
+// media query
+@media screen and (max-width: 667px) {
+  .login-container {
+    .login {
+      width: 80%;
+    }
+    .login-right {
+      height: 100% !important;
+    }
+
+    .login-left {
+      padding-top: 100px;
+    }
+
+    .login-text {
+      width: 100% !important;
+      padding-bottom: 80px;
+      padding-top: 20px;
+    }
+  }
+}

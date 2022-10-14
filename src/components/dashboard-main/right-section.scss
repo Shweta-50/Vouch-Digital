@@ -1,0 +1,27 @@
+.right-section {
+ flex:1;
+    background-color: #F5F5F5;;
+  .header {
+    h4 {
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 120%;
+    }
+    .breadcrumb{
+        .breadcrumb-item{
+
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                a{
+                    text-decoration: none;
+                    color: #030037;
+
+                }
+           
+        }
+
+       
+    }
+  }
+}

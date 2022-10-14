@@ -1,0 +1,52 @@
+.view-client{
+width: 100%!important;
+    body{
+        background: #F5F5F5;
+    }
+
+    InputGroup{
+        border-radius: 50px !important;
+    }
+    .input-group-text{
+        padding:0;
+        background-color: transparent !important;
+        padding-left:10px;
+      }
+      input{
+        border-left:0;
+        border-radius: 0 50px 50px 0!important;
+        
+      }
+      input:focus{
+        outline: none;
+        box-shadow:none !important;
+        border:1px solid #ccc !important;
+        border-left:0 !important;
+       
+      }
+      .input-group-text{
+        border-radius:50px  0px 0px 50px!important;
+      }
+      .columns-btn{
+        background-color: transparent !important;
+        border:1px solid #ccc !important;
+        color: #939596!important;
+      }
+      .btn{
+        color: #153AC7;
+        background: #E8EBF9;
+        border-radius: 8px;
+        font-weight: bold !important;
+      }
+      .rounded-circle{
+        width:30px;
+      }
+      table td{
+        background-color:#ffffff;
+       
+      }
+      .table-container{
+        padding-right: 0;
+        padding-left: 0;
+      }
+}
